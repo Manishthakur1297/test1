@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_recent"
+        android:icon="@drawable/icon_recent"
+        android:enabled="true"
+        android:title="@string/title_recent" />
+
+    <item
+        android:id="@+id/navigation_category"
+        android:icon="@drawable/icon_category"
+        android:enabled="true"
+        android:title="@string/title_category" />
+
+    <item
+        android:id="@+id/navigation_download"
+        android:icon="@drawable/icon_download_folder"
+        android:title="@string/title_download"
+        android:enabled="true"/>
+
+</menu>

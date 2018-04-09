@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="3pt"
+        android:background="@drawable/background"
+        android:layout_gravity="center_horizontal">
+
+
+        <TextView
+            android:id="@+id/introduction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6pt"
+            android:layout_marginBottom="6pt"
+            android:padding="5pt"
+            android:layout_marginLeft="3pt"
+            android:text="@string/introduction"
+            android:gravity="start"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textSize="21sp"
+            android:textColor="#29b6f6"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackground"
+            android:onClick="Buw3c"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#555"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10pt"
+                    android:src="@drawable/icon_next"
+                    android:layout_weight="0"/>
+
+                <TextView
+                    android:id="@+id/w3schools"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6pt"
+                    android:layout_marginBottom="6pt"
+                    android:padding="5pt"
+                    android:layout_marginLeft="2pt"
+                    android:text="W3schools"
+                    android:gravity="left"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:textSize="24sp"
+                    android:textColor="#212121"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#555"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackground"
+            android:onClick="BuCoding"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10pt"
+                    android:src="@drawable/icon_next"
+                    android:layout_weight="0"/>
+
+                <TextView
+                    android:id="@+id/codingAlpha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6pt"
+                    android:layout_marginBottom="6pt"
+                    android:padding="5pt"
+                    android:layout_marginLeft="2pt"
+                    android:text="Coding Alpha"
+                    android:gravity="left"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:textSize="24sp"
+                    android:textColor="#212121"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#555"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackground"
+            android:onClick="BuCrazy"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10pt"
+                    android:src="@drawable/icon_next"
+                    android:layout_weight="0"/>
+
+                <TextView
+                    android:id="@+id/crazyTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6pt"
+                    android:layout_marginBottom="6pt"
+                    android:padding="5pt"
+                    android:layout_marginLeft="2pt"
+                    android:text="Crazy Programmer"
+                    android:gravity="left"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:textSize="24sp"
+                    android:textColor="#212121"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#555"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackground"
+            android:onClick="BuCodeWin"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10pt"
+                    android:src="@drawable/icon_next"
+                    android:layout_weight="0"/>
+
+                <TextView
+                    android:id="@+id/codeWin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6pt"
+                    android:layout_marginBottom="6pt"
+                    android:padding="5pt"
+                    android:layout_marginLeft="2pt"
+                    android:text="CodeforWin"
+                    android:gravity="left"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:textSize="24sp"
+                    android:textColor="#212121"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#555"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackground"
+            android:onClick="BuJava"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10pt"
+                    android:src="@drawable/icon_next"
+                    android:layout_weight="0"/>
+
+                <TextView
+                    android:id="@+id/javaProgrammer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6pt"
+                    android:layout_marginBottom="6pt"
+                    android:padding="5pt"
+                    android:layout_marginLeft="2pt"
+                    android:text="Java Programmer"
+                    android:gravity="left"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:textSize="24sp"
+                    android:textColor="#212121"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#555"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
